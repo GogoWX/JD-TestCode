@@ -6,36 +6,33 @@ body,div,i,ul,li,h1,h2,h3,p,form,input,select {
     text-align: center;
     box-sizing: border-box;
     border: none;
-}
-
-#content-box{
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
 }
-
-.head-activity{
+.iconfont{
+    font-size: 14px;
+}
+#content_box{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.head_activity{
     width: 100%;
     min-width: 1190px;
     height: 80px;
     background-color: #1565d8;
     position: relative;
-    display: flex;
-    justify-content: center;
 }
-
-.activity-banner{
+.activity_banner{
     width: 1190px;
     height: 80px;
     background: url('../images/activity_banner.jpg') no-repeat 100%;
 }
-
 .icon-guanbi{
     width: 20px;
     height: 20px;
     color: #fff;
-    font-size: 14px;
     text-align: center;
     line-height: 20px;
     background: rgb(45,45,45);
@@ -44,4 +41,34 @@ body,div,i,ul,li,h1,h2,h3,p,form,input,select {
     left: 50%;
     top: 5px;
     margin-left: 570px;
+}
+.top_nav{
+    width: 100%;
+    min-width: 1190px;
+    height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+}
+.top_nav_content{
+    justify-content: left;
+    overflow: hidden;
+    width: 1190px;
+    height: 30px;
+    line-height: 30px;
+}
+.locale{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 200px;
+}
+.icon-daohangdizhi{
+    color: #f10215;
+    margin-right: 4px;
+}
+.locale_choose{
+    font-size: 14px;
+    color: #999;
 }
