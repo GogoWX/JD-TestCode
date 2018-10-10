@@ -51,18 +51,27 @@ body,div,i,ul,li,h1,h2,h3,p,form,input,select {
 }
 .top_nav_content{
     justify-content: left;
-    overflow: hidden;
     width: 1190px;
     height: 30px;
     line-height: 30px;
+    position: relative;
 }
 .locale{
+    /* overflow: hidden; */
     float: left;
     height: 28px;
     line-height: 28px;
     padding-left: 7px;
     padding-right: 7px;
     margin-left: 200px;
+    border: 1px solid #e3e4e5;
+}
+.locale_hover{
+    z-index: 1;
+    height: 31px;
+    border-color: #ccc;
+    border-bottom: none;
+    background-color: #fff;
 }
 .icon-daohangdizhi{
     color: #f10215;
@@ -71,4 +80,14 @@ body,div,i,ul,li,h1,h2,h3,p,form,input,select {
 .locale_choose{
     font-size: 14px;
     color: #999;
+}
+.locale_list{
+    display: block;
+    width: 300px;
+    height: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 200px;
+    top: 30px;
 }
