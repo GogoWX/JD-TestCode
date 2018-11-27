@@ -1,0 +1,25 @@
+body,div,i,ul,li,h1,h2,h3,p,form,input,select,a {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.background_style{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.iconfont{
+    font-size: 14px;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
